@@ -23,41 +23,6 @@ externa, tudo dentro da própria planilha.
 | `cliente_lucro_prejuizo` | Tabela dinâmica: lucro/prejuízo por ação, para o cliente selecionado |
 | **`gráficos`** | Página consolidada com 6 gráficos, um para cada aba de análise |
 
-## 📈 Os 6 gráficos
-
-Cada gráfico usa um **tipo diferente**, escolhido de acordo com a natureza do dado:
-
-### 1. Estatística de Preços — Gráfico de Barras
-Compara mínimo, máximo, média, mediana, moda e desvio padrão dos preços negociados.
-
-![Estatística](screenshots/01_estatistica_barras.png)
-
-### 2. Tendência Temporal — Gráfico de Linha
-Evolução da quantidade de operações mês a mês ao longo de 2023.
-
-![Tendência Temporal](screenshots/02_tendencia_temporal_linha.png)
-
-### 3. Compra x Venda — Gráfico de Pizza
-Participação de cada tipo de operação no volume financeiro total negociado.
-
-![Compra x Venda](screenshots/03_compra_venda_pizza.png)
-
-### 4. Top 10 Clientes — Gráfico de Rosca
-Os dez clientes com maior volume financeiro negociado no período.
-
-![Top 10 Clientes](screenshots/04_top_clientes_rosca.png)
-
-### 5. Lucro/Prejuízo por Ação — Gráfico de Dispersão
-Total comprado x total vendido por ação, para um cliente selecionado — pontos acima da
-diagonal indicam lucro (venda maior que compra).
-
-![Lucro/Prejuízo](screenshots/05_lucro_prejuizo_dispersao.png)
-
-### 6. Volume Financeiro Mensal — Gráfico de Área
-Volume financeiro total negociado no mercado, mês a mês, em 2023.
-
-![Volume Mensal](screenshots/06_volume_mensal_area.png)
-
 ## 🛠️ Técnicas utilizadas
 
 - Fórmulas de agregação condicional (`SOMASE`, `SOMASES`, `CONT.SES`, `MÉDIASE`)
