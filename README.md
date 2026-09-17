@@ -32,11 +32,6 @@ externa, tudo dentro da própria planilha.
 - 6 tipos de gráficos nativos do Excel: barras, linha, pizza, rosca, dispersão e área
 - Formatação condicional e organização visual da página de resultados
 
-## 📁 Arquivos deste repositório
-
-- [`dinamica_mercado_acoes.xlsx`](dinamica_mercado_acoes.xlsx) — planilha completa
-- `screenshots/` — capturas de cada gráfico da aba `gráficos`
-
 ## ⚠️ Nota sobre os dados
 
 Todos os nomes, e-mails e códigos de clientes são fictícios, gerados apenas para fins de
